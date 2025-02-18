@@ -1,0 +1,42 @@
+# ---- Python ----
+# Virtual environment
+venv/
+.env
+
+# Compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---- Dependencies ----
+*.egg-info/
+dist/
+build/
+
+# ---- Logs & Debugging ----
+logs/
+*.log
+*.out
+*.err
+
+# ---- Database ----
+*.sqlite3
+*.db
+
+# ---- AWS (if using AWS CLI locally) ----
+.aws/
+*.pem  # Private keys
+config.json  # Any AWS-related config files
+
+# ---- VS Code / IDE Files ----
+.vscode/
+.idea/
+*.swp
+
+# ---- Jupyter Notebook Checkpoints ----
+.ipynb_checkpoints/
+
+# ---- System Files ----
+.DS_Store
+Thumbs.db
